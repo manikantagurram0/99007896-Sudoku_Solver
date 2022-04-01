@@ -41,7 +41,8 @@ Sudoku is a puzzle based on a small number of very simple principles:
 | 5. | How | In the Sudoku puzzle we need to fill in every empty box with an integer between 1 and 9 in such a way that every number from 1 up to 9 appears once in every row. |
 -------------------------------------------------------
 
-![Simple-Matrix-SWOT-Template_Nov2020 (1)](https://user-images.githubusercontent.com/98829237/160235010-e61764ec-cdb4-4ee6-9a8f-0298e1bc6715.jpg)
+![Simple-Matrix-SWOT-Template_Nov2020 (1)](https://user-images.githubusercontent.com/98829237/161314739-83922359-9885-4faf-8d4c-913106ec2a9e.jpg)
+
 
 ---------------------------------------------------------
 
