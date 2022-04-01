@@ -50,10 +50,10 @@ Sudoku is a puzzle based on a small number of very simple principles:
 ##  High Level Requirements ##
 |ID| Description|
 | :-------: |----------------------------------------------------------------------------------------------------------------------------------|
-| HLR_1 | It shall have fuel range in between 0 to 100.                                 |
-| HLR_2 | It shall have fuel tank capacity of 50L.                             |
-| HLR_3 | It shall have mileage of 20Kmp/h  |
-| HLR_4 | It shall have fuel indication alert if fuel range is less than 10%    |
+| HLR_1 | It shall not have the same number in the same row .                                 |
+| HLR_2 | It shall not have the same number in the same column.                             |
+| HLR_3 | It shall not have the same number in the same square.  |
+| HLR_4 | It shall have numbers from 1-9   |
 ---------------------------------
 
 
@@ -62,12 +62,11 @@ Sudoku is a puzzle based on a small number of very simple principles:
 ## LOW LEVEL REQUIREMENTS:- ##
 | HLR_ID |LLR_ID | Design_consideration | 
 | :-----: | :-----: | -------------------- | 
-| HLR_1 | LLR_1.1 | If input from fuel sesnor is more than 100 and less than 0 means it shows error 404 |
-| | LLR_1.2 | it shows output we range is in between 0 to 100 |  
-| HLR_2 | LLR_2.1 | low level requirements for this is tank capacity is 50L|
-| | LLR_2.2 | it counts the petrol for 50L | 
-| | LLR_2.3 | Check count condition| 
-| HLR_3 | LLR_3.1 | in the given simulink model i take creta car as referance it has mileage of 20Kmph |
-| | LLR_3.2 | it shows accurate value for given model |  
-| HLR_4 | LLR_4.1 | when fuel range is below the 10 percentage it alert a message|
-| | LLR_4.2 | fuel range is aboue 100 it shows error 404 |  
+| HLR_1 | LLR_1.1 | It shall not have the same number in the same row |
+| | LLR_1.2 | it shows wheater it have in same row or not |  
+| HLR_2 | LLR_2.1 | It shall not have the same number in the same column |
+| | LLR_2.2 | it shows wheater it have in same coloumn or not | 
+| HLR_3 | LLR_3.1 | It shall not have the same number in the same square. |
+| | LLR_3.2 | it shows wheater it have in same square or not  |  
+| HLR_4 | LLR_4.1 | It shall have numbers from 1-9|
+| | LLR_4.2 | it show only numbers between 1 to 9 |  
